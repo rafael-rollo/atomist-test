@@ -98,3 +98,19 @@ description: My first test with an atomist template
 root_package: br.com.rollorafael.atomisttest
 service_class_name: MyService
 
+####
+
+# editor info
+name: atomist-project-templates.spring-boot-common-editors.AddDockerMavenBuild
+group: atomist-project-templates
+artifact: spring-boot-common-editors
+version: 1.8.2
+
+# backing git repo
+repo: atomist-project-templates/spring-boot-common-editors.git
+branch: master
+sha: 01898cc
+
+# parameter values
+base_docker_repository: rollorafael/atomist-test
+
